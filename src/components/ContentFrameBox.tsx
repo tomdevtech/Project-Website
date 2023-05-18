@@ -76,7 +76,7 @@ export function ContentFrameBox() {
           link={"https://github.com/IllusiveCoder/Updated-Unilexika"}
         ></ContentFrame>
       </div>
-      <footer className="footer"><a href="" className="footerElement">Datenschutz</a> <a href="" className="footerElement">Impressum</a></footer>
+      <footer className="footer"><a href="..." className="footerElement">Datenschutz</a> <a href="..." className="footerElement">Impressum</a></footer>
     </div>
     </div>
   );
