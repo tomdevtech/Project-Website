@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import ContentFrame from "./ContentFrame";
 
 export function ContentFrameBox() {
@@ -98,12 +98,12 @@ export function ContentFrameBox() {
             ></ContentFrame>
           </div>
           <footer className="footer">
-            <a href="..." className="footerElement">
+            <NavLink className="footerElement" to={"/dataSec"}>
               Datenschutz
-            </a>{" "}
-            <a href="..." className="footerElement">
+            </NavLink>
+            <NavLink className="footerElement" to={"/imprint"}>
               Impressum
-            </a>
+            </NavLink>
           </footer>
         </div>
     </div>
