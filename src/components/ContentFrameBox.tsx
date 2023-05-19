@@ -5,7 +5,6 @@ import ContentFrame from "./ContentFrame";
 export function ContentFrameBox() {
   return (
     <div className="background">
-      <HashRouter>
         <div className="ContentFrameBox">
           <header>
             <div className="headline">Illusive Coder</div>
@@ -107,7 +106,6 @@ export function ContentFrameBox() {
             </a>
           </footer>
         </div>
-      </HashRouter>
     </div>
   );
 }

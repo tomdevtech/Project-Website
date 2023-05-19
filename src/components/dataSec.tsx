@@ -1,5 +1,5 @@
 import React from "react";
 
-export function dataSec() {
+export function DataSec() {
   return <div className="background"></div>;
 }

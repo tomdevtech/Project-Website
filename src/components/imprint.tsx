@@ -1,5 +1,5 @@
 import React from "react";
 
-export function imPrint() {
+export function ImPrint() {
   return <div className="background"></div>;
 }
