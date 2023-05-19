@@ -32,11 +32,11 @@
 }
 
 .contentContent{
-  @apply mb-2 text-justify text-lg font-semibold text-white font-sans
+  @apply text-justify text-lg font-semibold text-white font-sans
 }
 
 .contentLink{
-  @apply text-center text-lg font-semibold text-white font-sans
+  @apply text-center text-lg font-semibold text-white font-sans sm:absolute sm:inset-x-0 sm:bottom-3 md:absolute md:inset-x-0 md:bottom-3 lg:absolute lg:inset-x-0 lg:bottom-3
 
 }
 
