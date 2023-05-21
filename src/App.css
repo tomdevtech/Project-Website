@@ -38,6 +38,10 @@
   @apply bg-center bg-fixed bg-no-repeat bg-cover bg-background;
 }
 
+.backgroundSubPage  {
+  @apply bg-center bg-fixed bg-no-repeat bg-cover bg-background h-screen;
+}
+
 .ContentSubPage {
-  @apply text-left text-base md:text-lg xl:text-xl font-semibold text-white font-sans ml-4 top-4;
+  @apply text-left text-base md:text-lg xl:text-xl font-semibold text-white font-sans ml-4 top-4 mr-4;
 }
