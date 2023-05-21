@@ -25,12 +25,6 @@ export function ImPrint() {
         <span className="contentContent">
           E-Mail: IllusivecoderDev@gmail.com
         </span>
-        <br />
-        <span className="contentContent">
-          Quelle:{" "}
-          <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>
-        </span>
-        <br />
       </div>
     </div>
   );

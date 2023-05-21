@@ -727,21 +727,6 @@ export function DataSec() {
           Website bald wieder begrüßen zu dürfen.
         </p>
         <br />
-        <p className="contentContent">
-          Alle Texte sind urheberrechtlich geschützt.
-        </p>
-        <br />
-        <p className="contentContent">
-          Quelle: Erstellt mit dem{" "}
-          <a
-            href="https://www.adsimple.de/datenschutz-generator/"
-            title="Datenschutz Generator von AdSimple für Deutschland"
-          >
-            Datenschutz Generator
-          </a>{" "}
-          von AdSimple
-        </p>
-        <br />
       </div>
     </div>
   );
