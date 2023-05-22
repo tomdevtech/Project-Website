@@ -4,7 +4,7 @@ export function ImPrint() {
   return (
     <div className="backgroundSubPage">
       <div className="ContentSubPage">
-        <div className="headline">Impressum</div>
+        <div className="subPageHeadline">Impressum</div>
         <span className="contentHeadline">
           Angaben gem&auml;&szlig; &sect; 5 TMG
         </span>

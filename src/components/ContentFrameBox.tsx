@@ -94,7 +94,7 @@ export function ContentFrameBox() {
               descriptive_text={
                 "Neue Projektseite für mich als Software Entwickler und meine Projekte. Erstellt mit React und TailwindCSS."
               }
-              link={"https://github.com/IllusiveCoder/website"}
+              link={"https://github.com/IllusiveCoder/Project-Website"}
             ></ContentFrame>
           </div>
           <footer className="footer">

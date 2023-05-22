@@ -4,7 +4,7 @@ export function DataSec() {
   return (
     <div className="background">
       <div className="ContentSubPage">
-        <div className="headline">Datenschutzerklärung</div>
+        <div className="subPageHeadline">Datenschutzerklärung</div>
         <span className="contentHeadline">Einleitung und Überblick</span>
         <br />
         <br />
