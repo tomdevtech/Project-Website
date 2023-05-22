@@ -15,7 +15,7 @@
 }
 
 .footer {
-  @apply inset-x-0 bottom-0 text-center text-2xl md:text-3xl text-white font-sans space-x-4;
+  @apply inset-x-0 bottom-0 text-center text-2xl md:text-3xl text-white font-sans font-semibold space-x-4;
 }
 
 .headline {
