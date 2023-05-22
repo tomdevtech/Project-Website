@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .ContentFrameBox {
-  @apply px-16 py-10 font-sans select-none touch-auto pointer-events-auto will-change-auto w-full h-full overscroll-contain;
+  @apply lg:px-16 lg:py-10 font-sans select-none touch-auto pointer-events-auto will-change-auto overscroll-contain;
 }
 
 .ContentFrame {
-  @apply mb-3 mr-3 py-3 px-3 lg:mb-4 lg:mr-4 lg:py-4 lg:px-4 rounded-2xl font-sans backdrop-brightness-150 border-2 border-transparent hover:backdrop-brightness-200 hover:border-gray-600;
+  @apply mb-3 mr-3 ml-3 py-3 px-3 lg:ml-0 lg:mb-4 lg:mr-4 lg:py-4 lg:px-4 rounded-2xl font-sans backdrop-brightness-150 border-2 border-transparent hover:backdrop-brightness-200 hover:border-gray-600;
 }
 
 .body {
@@ -39,7 +39,7 @@
 }
 
 .background {
-  @apply bg-center bg-scroll bg-no-repeat bg-cover bg-background w-full h-full overscroll-contain;
+  @apply bg-center bg-scroll bg-no-repeat bg-cover bg-background overscroll-contain;
 }
 
 .backgroundSubPage  {
