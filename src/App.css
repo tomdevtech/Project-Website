@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .ContentFrameBox {
-  @apply px-16 py-10 font-sans select-none touch-auto pointer-events-auto will-change-auto;
+  @apply px-16 py-10 font-sans select-none touch-auto pointer-events-auto will-change-auto w-full h-full;
 }
 
 .ContentFrame {
@@ -39,7 +39,7 @@
 }
 
 .background {
-  @apply bg-center bg-fixed bg-no-repeat bg-cover bg-background;
+  @apply bg-center bg-fixed bg-no-repeat bg-cover bg-background w-full h-full;
 }
 
 .backgroundSubPage  {
