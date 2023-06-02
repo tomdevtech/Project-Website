@@ -26,8 +26,7 @@ export function DataSec() {
         </p>
         <br />
         <p className="contentContent">
-          Datenschutzerklärungen klingen für gewöhnlich sehr technisch und
-          verwenden juristische Fachbegriffe. Diese Datenschutzerklärung soll
+          Diese Datenschutzerklärung soll
           Ihnen hingegen die wichtigsten Dinge so einfach und transparent wie
           möglich beschreiben. Soweit es der Transparenz förderlich ist, werden
           technische <strong>Begriffe leserfreundlich erklärt</strong>, Links zu
@@ -697,34 +696,6 @@ export function DataSec() {
             https://www.namecheap.com/legal/general/privacy-policy/
           </a>
           .
-        </p>
-        <br />
-        <span className="contentHeadline">Schlusswort</span>
-        <br />
-        <br />
-        <p className="contentContent">
-          Herzlichen Glückwunsch! Wenn Sie diese Zeilen lesen, haben Sie sich
-          wirklich durch unsere gesamte Datenschutzerklärung „gekämpft“ oder
-          zumindest bis hier hin gescrollt. Wie Sie am Umfang unserer
-          Datenschutzerklärung sehen, nehmen wir den Schutz Ihrer persönlichen
-          Daten, alles andere als auf die leichte Schulter.
-          <br />
-          Uns ist es wichtig, Sie nach bestem Wissen und Gewissen über die
-          Verarbeitung personenbezogener Daten zu informieren. Dabei wollen wir
-          Ihnen aber nicht nur mitteilen, welche Daten verarbeitet werden,
-          sondern auch die Beweggründe für die Verwendung diverser
-          Softwareprogramme näherbringen. In der Regel klingen
-          Datenschutzerklärung sehr technisch und juristisch. Da die meisten von
-          Ihnen aber keine Webentwickler oder Juristen sind, wollten wir auch
-          sprachlich einen anderen Weg gehen und den Sachverhalt in einfacher
-          und klarer Sprache erklären. Immer ist dies natürlich aufgrund der
-          Thematik nicht möglich. Daher werden die wichtigsten Begriffe am Ende
-          der Datenschutzerklärung näher erläutert.
-          <br />
-          Bei Fragen zum Thema Datenschutz auf unserer Website zögern Sie bitte
-          nicht, uns oder die verantwortliche Stelle zu kontaktieren. Wir
-          wünschen Ihnen noch eine schöne Zeit und hoffen, Sie auf unserer
-          Website bald wieder begrüßen zu dürfen.
         </p>
         <br />
       </div>

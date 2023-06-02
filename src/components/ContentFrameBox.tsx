@@ -104,6 +104,7 @@ export function ContentFrameBox() {
             <NavLink className="footerElement" to={"/imprint"}>
               Impressum
             </NavLink>
+            <br/><br/>
           </footer>
         </div>
     </div>
