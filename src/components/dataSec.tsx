@@ -692,8 +692,8 @@ export function DataSec() {
         <p className="contentContent">
           Mehr über die Daten, die durch die Verwendung von Namecheap
           verarbeitet werden, erfahren Sie in der Privacy Policy auf{" "}
-          <a href="https://www.namecheap.com/legal/general/privacy-policy/">
-            https://www.namecheap.com/legal/general/privacy-policy/
+          <a  href="https://www.namecheap.com/legal/general/privacy-policy/">
+            https://www.namecheap.com/legal/general/<br/>privacy-policy/
           </a>
           .
         </p>
