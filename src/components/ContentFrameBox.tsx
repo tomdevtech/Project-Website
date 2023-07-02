@@ -96,6 +96,13 @@ export function ContentFrameBox() {
               }
               link={"https://github.com/IllusiveCoder/Project-Website"}
             ></ContentFrame>
+            <ContentFrame
+              title={"Uni Notenrechner"}
+              descriptive_text={
+                "Kleines Programm mit grafischer Oberfläche, um seinen Notendurchschnitt in der Uni zu berechnen."
+              }
+              link={"https://github.com/IllusiveCoder/gradecalculator"}
+            ></ContentFrame>
           </div>
           <footer className="footer">
             <NavLink className="footerElement" to={"/dataSec"}>
