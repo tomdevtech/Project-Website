@@ -31,7 +31,7 @@
 }
 
 .contentContent {
-  @apply text-left text-base md:text-lg xl:text-xl font-semibold text-white font-sans;
+  @apply text-left text-base md:text-lg xl:text-xl font-semibold text-white font-sans whitespace-normal;
 }
 
 .contentLink {
@@ -47,5 +47,5 @@
 }
 
 .ContentSubPage {
-  @apply text-left text-base md:text-lg xl:text-xl font-semibold text-white font-sans ml-4 top-4 mr-4;
+  @apply text-left text-base md:text-lg xl:text-xl font-semibold text-white font-sans ml-4 top-4 mr-4 whitespace-normal;
 }
