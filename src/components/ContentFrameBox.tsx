@@ -104,7 +104,7 @@ export function ContentFrameBox() {
               link={"https://github.com/IllusiveCoder/gradecalculator"}
             ></ContentFrame>
             <ContentFrame
-              title={"Python Kurs"}
+              title={"Python 3 Kurs"}
               descriptive_text={
                 "Ein selbsterstellter Kurs in Python 3, um die Grundlagen der Programmiersprache und den Umgang mit entsprechenden Konzepten zu erlernen."
               }
