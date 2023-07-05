@@ -3,4 +3,4 @@ A presentation of all my coding projects, including a short summary and a link t
 I am open for changes, so please contact me, if you have any ideas. 
 Further updates and improvements are planned from time to time.
 
-+ Link to website: 
++ Link to website: https://www.illusivecoder.com
