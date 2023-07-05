@@ -110,6 +110,13 @@ export function ContentFrameBox() {
               }
               link={"https://github.com/IllusiveCoder/Python-Course"}
             ></ContentFrame>
+            <ContentFrame
+              title={"Python 3 Kurs"}
+              descriptive_text={
+                "Ein selbsterstellter Kurs in Python 3, um die Grundlagen der Programmiersprache und den Umgang mit entsprechenden Konzepten zu erlernen."
+              }
+              link={"https://github.com/IllusiveCoder/Python-Course"}
+            ></ContentFrame>
           </div>
           <footer className="footer">
             <NavLink className="footerElement" to={"/dataSec"}>
