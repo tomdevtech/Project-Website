@@ -110,6 +110,13 @@ export function ContentFrameBox() {
               }
               link={"https://github.com/IllusiveCoder/Python-Course"}
             ></ContentFrame>
+            <ContentFrame
+              title={"API Bild Generator"}
+              descriptive_text={
+                "Erzeugt mithilfe einer API Bilder. Zur erleichterten Bedienung wurde eine grafische Oberfläche mittels PyQT5 erzeugt."
+              }
+              link={"https://github.com/IllusiveCoder/ImageGenerator"}
+            ></ContentFrame>
           </div>
           <footer className="footer">
             <NavLink className="footerElement" to={"/dataSec"}>
