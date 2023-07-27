@@ -13,117 +13,122 @@ export function ContentFrameBox() {
             <ContentFrame
               title={"Robert Assistent"}
               descriptive_text={
-                "Robert ist ein kleiner Assistent, welcher einige Tools wie eine Galerie, einen Musikplayer und noch vieles mehr besitzt. Außerdem beherrscht er einige Witze und verfügt über ein Hilfemenü."
+                "Meet Robert, your helpful assistant with a wide range of tools, including a gallery, a music player, and more. He's not only capable of entertaining you with jokes but also comes with a built-in help menu."
               }
               link={"https://github.com/IllusiveCoder/Robert-Assistent"}
             ></ContentFrame>
             <ContentFrame
               title={"Colour Changer"}
               descriptive_text={
-                "Dieses Programm dient zum Ausprobieren unterschiedlicher Farben für GUIs. Man kann Hexadezimalwerte oder auch die Namen verschiedener Farben angeben."
+                "This program allows you to experiment with various colors for GUIs. You can input hexadecimal values or choose from a range of color names."
               }
               link={"https://github.com/IllusiveCoder/Colourchanger"}
             ></ContentFrame>
             <ContentFrame
               title={"Unilexika"}
               descriptive_text={
-                "Dient als kleines Notizbuch, indem man Text-Dateien speichern und auslesen kann."
-              }
+                "Serves as a small notebook for storing and reading text files."}
               link={"https://github.com/IllusiveCoder/Unilexika"}
             ></ContentFrame>
             <ContentFrame
               title={"Updated Unilexika"}
               descriptive_text={
-                "Die geupdatete Version erlaubt nun, vorhandene Einträge zu überarbeiten und nicht nur auszulesen."
+                "The updated version now allows editing existing entries, not just reading them."
               }
               link={"https://github.com/IllusiveCoder/Updated-Unilexika"}
             ></ContentFrame>
             <ContentFrame
-              title={"Listen-App"}
+              title={"List App"}
               descriptive_text={
-                "Diese App ist für Leute, welche schnellen und kostenlosen Zugriff auf Internetseiten haben möchten, wo man kostenlos Bücher herunterladen kann, jedoch müssen für die Installation die 'Entwickler Optionen' aktiviert sein."
+                "This app is designed for users who seek quick and free access to websites where they can download books for free. However, 'Developer Options' must be enabled for the installation."
               }
               link={"https://github.com/IllusiveCoder/Listenapp"}
             ></ContentFrame>
             <ContentFrame
-              title={"Link-App"}
+              title={"Link App"}
               descriptive_text={
-                "Mithilfe dieser App, lassen sich Links speichern, löschen und gegebenfalls überarbeiten. Letztendlich erfüllt die App den Zweck, sich Internetseiten leichter merken und erreichen zu können."
+                "Using this app, you can store, delete, and optionally edit links. Ultimately, the app serves the purpose of easily saving and accessing websites."
               }
               link={"https://github.com/IllusiveCoder/Link-App"}
             ></ContentFrame>
             <ContentFrame
               title={"Pen and Paper Storage System"}
               descriptive_text={
-                "Diese Anwendung ist für Windows vorbehalten und erlaubt es mittels des JSON-Storage Systems, Daten über Charaktere und Story anzulegen, zu bearbeiten und zu löschen."
-              }
+                "This application is exclusive to Windows and allows users to create, edit, and delete data about characters and stories using the JSON storage system."              }
               link={"https://github.com/IllusiveCoder/Pen-and-Paper"}
             ></ContentFrame>
             <ContentFrame
               title={"Portfolio Website"}
               descriptive_text={
-                "Meine alte (und erste) Internetseite als Prototyp. Zur besseren Darstellung aller Projekte als Übersicht."
+                "My old (and first) website as a prototype. Created to showcase all projects in a better organized and concise manner."
               }
               link={"https://github.com/IllusiveCoder/Portfolio"}
             ></ContentFrame>
             <ContentFrame
-              title={"Array Projekt"}
+              title={"Array Project"}
               descriptive_text={
-                "Dieses Projekt ist ein Beispielprogramm, welches verdeutlichen soll, wie Elemente in Arrays, mit den Dimensionen 1 bis 3, eingelesen, gelöscht und allgemein verändert werden."
+                "This project is an exemplary program aimed at illustrating how elements in arrays, with dimensions ranging from 1 to 3, are read, deleted, and modified in general."
               }
               link={"https://github.com/IllusiveCoder/Arrays"}
             ></ContentFrame>
             <ContentFrame
               title={"IC-Autodocker"}
               descriptive_text={
-                "Programm zum spielerischen Herantreten an Docker und zum Ausprobieren jeglicher Funktionalität."
+                "An interactive Docker exploration tool to playfully approach and experiment with all functionalities."
               }
               link={"https://github.com/IllusiveCoder/IC-Autodocker"}
             ></ContentFrame>
             <ContentFrame
               title={"IC-Autodocker Python Package"}
               descriptive_text={
-                "Python Package mit voller Funktionalität von IC-Autodocker, jedoch ohne GUI."
+                "Full-featured Python package of IC-Autodocker, excluding the GUI."
               }
               link={
                 "https://github.com/IllusiveCoder/IC-Autodocker-Python-Package"
               }
             ></ContentFrame>
             <ContentFrame
-              title={"Webseite"}
+              title={"Website"}
               descriptive_text={
-                "Neue Projektseite für mich als Software Entwickler und meine Projekte. Erstellt mit React und TailwindCSS."
+                "New portfolio website showcasing my projects as a software developer. Built with React and Tailwind CSS."
               }
               link={"https://github.com/IllusiveCoder/Project-Website"}
             ></ContentFrame>
             <ContentFrame
-              title={"Uni Notenrechner"}
+              title={"Grade Calculator"}
               descriptive_text={
-                "Kleines Programm mit grafischer Oberfläche, um seinen Notendurchschnitt in der Uni zu berechnen."
+                "Calculate your university grade point average with this small program featuring a graphical user interface."
               }
               link={"https://github.com/IllusiveCoder/gradecalculator"}
             ></ContentFrame>
             <ContentFrame
-              title={"Python 3 Kurs"}
+              title={"Python 3 Course"}
               descriptive_text={
-                "Ein selbsterstellter Kurs in Python 3, um die Grundlagen der Programmiersprache und den Umgang mit entsprechenden Konzepten zu erlernen."
+                "A self-created Python 3 course for learning the fundamentals of the programming language and mastering related concepts."
               }
               link={"https://github.com/IllusiveCoder/Python-Course"}
             ></ContentFrame>
             <ContentFrame
-              title={"API Bild Generator"}
+              title={"API Picture Generator"}
               descriptive_text={
-                "Erzeugt mithilfe einer API Bilder. Zur erleichterten Bedienung wurde eine grafische Oberfläche mittels PyQT5 erzeugt."
+                "Generates images using an API. For enhanced user experience, a graphical interface was created using PyQT5."
               }
               link={"https://github.com/IllusiveCoder/ImageGenerator"}
+            ></ContentFrame>
+            <ContentFrame
+              title={"Example Library"}
+              descriptive_text={
+                "This project is a comprehensive code sample library covering Java, Python, Ruby, C/C++, and Web Development (HTML, CSS, JavaScript with React)"
+              }
+              link={"https://github.com/IllusiveCoder/ExampleLibrary"}
             ></ContentFrame>
           </div>
           <footer className="footer">
             <NavLink className="footerElement" to={"/dataSec"}>
-              Datenschutz
+              Privacy
             </NavLink>
             <NavLink className="footerElement" to={"/imprint"}>
-              Impressum
+              Imprint
             </NavLink>
             <br/><br/>
           </footer>
