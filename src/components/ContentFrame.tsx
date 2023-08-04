@@ -17,7 +17,7 @@ export default function ContentFrame({ title, descriptive_text, link }: Props) {
       <br />
       <div className="contentLink">
         <span>
-          <a href={link}>Zu {title}</a>
+          <a href={link}>To {title}</a>
         </span>
       </div>
     </div>
