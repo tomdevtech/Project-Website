@@ -54,7 +54,7 @@ export function ContentFrameBox() {
             <ContentFrame
               title={"Pen and Paper Storage System"}
               descriptive_text={
-                "This application is exclusive to Windows and allows users to create, edit, and delete data about characters and stories using the JSON storage system."              }
+                "This application is exclusive to Windows and allows users to create, edit, and delete data about characters and stories using the JSON storage system."}
               link={"https://github.com/IllusiveCoder/Pen-and-Paper"}
             ></ContentFrame>
             <ContentFrame
@@ -121,6 +121,13 @@ export function ContentFrameBox() {
                 "This project is a comprehensive code sample library covering Java, Python, Ruby, C/C++, and Web Development (HTML, CSS, JavaScript with React)"
               }
               link={"https://github.com/IllusiveCoder/ExampleLibrary"}
+            ></ContentFrame>
+            <ContentFrame
+              title={"Learn Programming"}
+              descriptive_text={
+                "The repository is a curated collection of websites and platforms offering tutorials, courses, and information to help individuals learn and enhance their programming skills."
+              }
+              link={"https://github.com/IllusiveCoder/LearnProgramming"}
             ></ContentFrame>
           </div>
           <footer className="footer">
