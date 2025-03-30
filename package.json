@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "test": "vite test",
-    "lint": "npx eslint"
+    "lint": "npx eslint ."
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
