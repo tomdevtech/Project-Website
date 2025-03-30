@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import { ContentFrameBox } from "./components/ContentFrameBox";
 import { Route, createRoutesFromElements, RouterProvider, createHashRouter } from "react-router-dom";

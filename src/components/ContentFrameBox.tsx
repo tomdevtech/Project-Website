@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import ContentFrame from "./ContentFrame";
 
@@ -7,7 +6,7 @@ export function ContentFrameBox() {
     <div className="background">
         <div className="ContentFrameBox">
           <header>
-            <div className="headline">Illusive Coder</div>
+            <div className="headline">Tom DevTech</div>
           </header>
           <div className="body">
             <ContentFrame
@@ -128,6 +127,27 @@ export function ContentFrameBox() {
                 "The repository is a curated collection of websites and platforms offering tutorials, courses, and information to help individuals learn and enhance their programming skills."
               }
               link={"https://github.com/IllusiveCoder/LearnProgramming"}
+            ></ContentFrame>
+            <ContentFrame
+              title={"Simple AI Chat Bot"}
+              descriptive_text={
+                "A simple local AI that scans your prioritized folders and creates a markdown documentation file."
+              }
+              link={"https://github.com/tomdevtech/SimpleAI-Chatbot"}
+            ></ContentFrame>
+            <ContentFrame
+              title={"AI API"}
+              descriptive_text={
+                "A sample API project for interacting with a local model, managing models, and handling authorization."
+              }
+              link={"https://github.com/tomdevtech/AI-API"}
+            ></ContentFrame>
+            <ContentFrame
+              title={"Work Time Management"}
+              descriptive_text={
+                "The Work Time Management system enables companies to efficiently track, manage, and analyze employee working hours, ensuring productivity and compliance."
+              }
+              link={"https://github.com/tomdevtech/Work-Time-Mgt"}
             ></ContentFrame>
           </div>
           <footer className="footer">
