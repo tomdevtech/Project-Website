@@ -1,54 +1,97 @@
-# React + TypeScript + Vite
+# Project Website - Tom DevTech 🚀✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a personal portfolio website hosted on GitHub Pages under the domain [https://tom-devtech.com/](https://tom-devtech.com/). It showcases various programming projects, demonstrating skills in React, TailwindCSS, TypeScript, and Vite.
 
-Currently, two official plugins are available:
+## 🌟 Features
+- 📱 Fully responsive layout built with TailwindCSS.
+- ⚛️ React-based single-page application (SPA) utilizing React Router.
+- 📦 Deployed via GitHub Pages using Vite.
+- 🌐 Custom domain integrated using Namecheap.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Technologies Used
+- **React** (with React Router for navigation) ⚛️
+- **TailwindCSS** (for styling) 🎨
+- **Vite** (for development and building) ⚡
+- **GitHub Pages** (for hosting) 🌍
+- **Namecheap** (for custom domain management) 🔑
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📂 Folder Structure 📁
+```
+projectwebsite/
+├── public/
+│   ├── index.html
+│   ├── CNAME   # Contains 'tom-devtech.com'
+├── src/
+│   ├── App.tsx
+│   ├── index.css
+│   ├── components/
+├── package.json
+├── tailwind.config.cjs
+├── vite.config.js
+├── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🌐 Deployment Guide 🌟
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 🚀 Deploying to GitHub Pages
+1. 🌟 **Create a GitHub repository** for your project.
+2. 🔼 **Push your React app to the repository.**
+3. In your `vite.config.js`, add the following configuration:
+```javascript
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+export default defineConfig({
+  plugins: [react()],
+  base: '/', // Adjust if your repository is a subdirectory
+});
 ```
+4. 📂 Add a `CNAME` file to the `public` directory with the following content:
+```
+tom-devtech.com
+```
+5. In your `package.json`, update your `scripts` to include:
+```json
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
+}
+```
+6. ⚙️ Build and deploy your project:
+```bash
+npm run build
+npm run deploy
+```
+7. 🔼 Push your changes to GitHub.
+8. ✅ Enable **GitHub Pages** under `Settings > Pages` in your repository.
+
+### 🌐 Setting Up a Custom Domain with Namecheap 🌍
+1. 🔑 Log into your [Namecheap account](https://www.namecheap.com/).
+2. 📋 Navigate to **Domain List** and click **Manage** next to your domain.
+3. 🔧 Go to the **Advanced DNS** tab.
+4. Add the following DNS records:
+   - **CNAME Record:**
+     - Host: `www`
+     - Value: `<your-username>.github.io`
+     - TTL: Automatic
+   - **A Record:**
+     - Host: `@`
+     - Value: `185.199.108.153` (and other IPs if needed)
+     - TTL: Automatic
+5. 💾 Save changes.
+6. 🔗 Go to your repository’s `Settings > Pages` and set the **Custom domain** to `yourdomain.com`.
+
+## 📚 References 📖
+- [📓 Namecheap Documentation](https://www.namecheap.com/support/)
+- [📓 GitHub Pages Documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
+- [📓 Vite Documentation](https://vitejs.dev/guide/)
+- [📓 TailwindCSS Documentation](https://tailwindcss.com/docs/installation)
+
+## 📜 License 🔏
+This project is licensed under the MIT License.
+
+---
+
+🎉 **Enjoy building and deploying your own website!** ✨🚀🎨
