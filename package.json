@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "test": "vite test"
+    "test": "vite test",
+    "lint": "eslint 'src/**/*.{js,ts,tsx}'"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
