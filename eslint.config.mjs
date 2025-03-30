@@ -5,6 +5,10 @@ import reactHooks from 'eslint-plugin-react-hooks'
 import tseslint from '@typescript-eslint/eslint-plugin'
 import parser from '@typescript-eslint/parser'
 
+const fixedGlobals = Object.fromEntries(
+  Object.entries(globals.browser).map(([key, value]) => [key.trim(), value])
+);
+
 export default [
   {
     ignores: ['dist', 'node_modules', 'public']
@@ -17,9 +21,9 @@ export default [
       ecmaVersion: 2022,
       sourceType: 'module',
       globals: {
-        ...globals.browser,
+        ...fixedGlobals,
         ...globals.node,
-        ...globals.es2021
+        ...globals.es2021,
       },
     },
     plugins: {
