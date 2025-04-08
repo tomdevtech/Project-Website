@@ -25,6 +25,11 @@ export function ImPrint() {
         <span className="contentContent">
           E-Mail: IllusivecoderDev@gmail.com
         </span>
+        <br />
+        <br />
+        <span className="contentContent">
+          Hinweis: Dies ist eine rein private Website ohne kommerziellen Zweck.
+        </span>
       </div>
     </div>
   );
