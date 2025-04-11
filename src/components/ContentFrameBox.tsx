@@ -10,10 +10,12 @@ export function ContentFrameBox() {
 
   return (
     <div className="background">
-      <LanguageSelector />
       <div className="ContentFrameBox">
-        <header>
+        <header className="relative px-4 pt-4 pb-2 sm:px-6 sm:py-4 lg:px-8 lg:py-8">
           <div className="headline">Tom DevTech</div>
+          <div className="mt-8 mb-4 sm:mt-0 sm:mb-0 flex justify-center sm:block sm:absolute sm:right-6 sm:top-1/2 sm:-translate-y-1/2 lg:right-16 xl:right-24 z-50">
+            <LanguageSelector />
+          </div>
         </header>
         <div className="body">
           <ContentFrame

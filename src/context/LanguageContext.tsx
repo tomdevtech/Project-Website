@@ -4,16 +4,16 @@ type Language = 'de' | 'en';
 
 interface LanguageContextType {
   language: Language;
-  setLanguage: () => void;
+  setLanguage: (newLanguage: Language) => void;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  // Get initial language from localStorage or default to 'de'
+  // Get initial language from localStorage or default to 'en'
   const [language, setLanguageState] = useState<Language>(() => {
     const savedLanguage = localStorage.getItem('language');
-    return (savedLanguage === 'en' || savedLanguage === 'de') ? savedLanguage : 'de';
+    return (savedLanguage === 'en' || savedLanguage === 'de') ? savedLanguage : 'en';
   });
 
   const setLanguage = (newLanguage: Language) => {
