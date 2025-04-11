@@ -4,7 +4,7 @@ type Language = 'de' | 'en';
 
 interface LanguageContextType {
   language: Language;
-  setLanguage: (newLanguage: Language) => void;
+  setLanguage: () => void;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
