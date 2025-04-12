@@ -9,7 +9,7 @@ export function DataSec() {
         <br />
         <br />
         <p className="contentContent">
-          Wir haben diese Datenschutzerklärung (Fassung 21.05.2023-312507168)
+          Wir haben diese Datenschutzerklärung (Fassung 11.04.2024-312507168)
           verfasst, um Ihnen gemäß der Vorgaben der{" "}
           <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&amp;from=DE&amp;tid=312507168#d1e2269-1-1">
             Datenschutz-Grundverordnung (EU) 2016/679
@@ -46,6 +46,17 @@ export function DataSec() {
           vorhandenen Links zu folgen und sich weitere Informationen auf
           Drittseiten anzusehen. Unsere Kontaktdaten finden Sie
           selbstverständlich auch im Impressum.
+        </p>
+        <br />
+        <span className="contentHeadline">Verantwortlicher</span>
+        <br />
+        <br />
+        <p className="contentContent">
+          Verantwortlich für die Datenverarbeitung ist:
+          <br />
+          Tom Helling
+          <br />
+          E-Mail: TomHelling.DevTech@gmail.com
         </p>
         <br />
         <span className="contentHeadline">Anwendungsbereich</span>
@@ -239,7 +250,7 @@ export function DataSec() {
           </li>
           <li>
             Sie haben laut Artikel 17 DSGVO das Recht auf Löschung („Recht auf
-            Vergessenwerden“), was konkret bedeutet, dass Sie die Löschung Ihrer
+            Vergessenwerden"), was konkret bedeutet, dass Sie die Löschung Ihrer
             Daten verlangen dürfen.
           </li>
           <li>
@@ -405,7 +416,7 @@ export function DataSec() {
         <p className="contentContent">
           TLS, Verschlüsselung und https klingen sehr technisch und sind es
           auch. Wir verwenden HTTPS (das Hypertext Transfer Protocol Secure
-          steht für „sicheres Hypertext-Übertragungsprotokoll“), um Daten
+          steht für "sicheres Hypertext-Übertragungsprotokoll"), um Daten
           abhörsicher im Internet zu übertragen.
           <br />
           Das bedeutet, dass die komplette Übertragung aller Daten von Ihrem
