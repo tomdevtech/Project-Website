@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export function DataSec() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="background">
       <div className="ContentSubPage">
