@@ -16,7 +16,8 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
     return (savedLanguage === 'en' || savedLanguage === 'de') ? savedLanguage : 'en';
   });
 
-  const setLanguage = (newLanguage: Language) => {
+  const setLanguage = () => {
+    const newLanguage = language === 'de' ? 'en' : 'de';
     setLanguageState(newLanguage);
     localStorage.setItem('language', newLanguage);
   };
@@ -25,7 +26,7 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
   useEffect(() => {
     const browserLang = navigator.language.toLowerCase();
     if (!localStorage.getItem('language')) {
-      setLanguage(browserLang.startsWith('de') ? 'de' : 'en');
+      setLanguageState(browserLang.startsWith('de') ? 'de' : 'en');
     }
   }, []);
 
