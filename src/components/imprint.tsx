@@ -23,7 +23,7 @@ export function ImPrint() {
         <br />
         <br />
         <span className="contentContent">
-          E-Mail: IllusivecoderDev@gmail.com
+          E-Mail: TomHelling.DevTech@gmail.com
         </span>
         <br />
         <br />
