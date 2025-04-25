@@ -12,6 +12,10 @@
   transition-all duration-300 ease-in-out transform hover:scale-[1.02] backdrop-blur-sm;
 }
 
+.ContentFrameWithoutHover {
+  @apply mb-3 mr-3 ml-3 py-3 px-3 lg:ml-0 lg:mb-4 lg:mr-4 lg:py-4 lg:px-4 rounded-2xl font-sans backdrop-brightness-150 border-2 border-transparent;
+}
+
 .body {
   @apply py-5 sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 font-sans gap-4;
 }
@@ -38,6 +42,10 @@
 
 .contentContent {
   @apply text-left text-base md:text-lg xl:text-xl font-semibold text-white font-sans whitespace-normal leading-relaxed;
+}
+
+.contentContentCentered {
+  @apply text-center text-base md:text-lg xl:text-xl font-semibold text-white font-sans whitespace-normal leading-relaxed;
 }
 
 .contentLink {
