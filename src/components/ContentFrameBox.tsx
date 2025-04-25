@@ -3,6 +3,7 @@ import ContentFrame from "./ContentFrame";
 import { LanguageSelector } from "./LanguageSelector";
 import { useLanguage } from "../context/LanguageContext";
 import { translations } from "../translations/translations";
+import WelcomeComponent from "./WelcomeComponent";
 
 export function ContentFrameBox() {
   const { language } = useLanguage();
@@ -17,6 +18,9 @@ export function ContentFrameBox() {
             <LanguageSelector />
           </div>
         </header>
+        <WelcomeComponent
+          areaid="welcome"
+        />
         <div className="body">
           <ContentFrame
             projectKey="robert"

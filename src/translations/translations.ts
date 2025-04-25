@@ -1,5 +1,12 @@
 export const translations = {
   de: {
+    welcomebox: {
+      welcome: {
+        headline: "Willkommen auf meiner Portfolio-Website",
+        text: "Ich bin Tom, ein leidenschaftlicher Softwareentwickler mit einem breiten Spektrum an Fähigkeiten und Erfahrungen. Hier finden Sie eine Auswahl meiner Projekte, die meine Leidenschaft für Technologie und Innovation widerspiegeln.",
+        quote: "Die einzige Grenze ist die, die du dir selbst setzt."
+      }
+    },
     projects: {
       robert: {
         title: "Robert Assistent",
@@ -91,6 +98,13 @@ export const translations = {
     }
   },
   en: {
+    welcomebox: {
+      welcome: {
+        headline: "Welcome to my Portfolio Website",
+        text: "I am Tom, a passionate software developer with a wide range of skills and experiences. Here you will find a selection of my projects that reflect my passion for technology and innovation.",
+        quote: "The only limit is the one you set for yourself."
+      }
+    },
     projects: {
       robert: {
         title: "Robert Assistant",
