@@ -87,6 +87,10 @@ export const translations = {
       workTimeManagement: {
         title: "Work Time Management",
         description: "Das Work Time Management-System ermöglicht es Unternehmen, Arbeitszeiten von Mitarbeitern effizient zu verfolgen, zu verwalten und zu analysieren, um Produktivität und Compliance zu gewährleisten."
+      },
+      customAIAgent: {
+        title: "Custom AI Agent",
+        description: "Ein KI-Agent, der auf Ihre Bedürfnisse zugeschnitten ist. Er kann verschiedene Aufgaben erledigen und ist anpassbar."
       }
     },
     navigation: {
@@ -185,6 +189,10 @@ export const translations = {
       workTimeManagement: {
         title: "Work Time Management",
         description: "The Work Time Management system enables companies to efficiently track, manage, and analyze employee working hours, ensuring productivity and compliance."
+      },
+      customAIAgent: {
+        title: "Custom AI Agent",
+        description: "A custom-tailored AI agent. It can perform various tasks and is customizable."
       }
     },
     navigation: {
