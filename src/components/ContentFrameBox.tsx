@@ -106,6 +106,10 @@ export function ContentFrameBox() {
             projectKey="customAIAgent"
             link={"https://github.com/tomdevtech/Custom-AI-Agent"}
           />
+          <ContentFrame
+            projectKey="sendMailsLibrary"
+            link={"https://github.com/tomdevtech/SendMailsLibrary"}
+          />
         </div>
         <footer className="footer">
           <NavLink className="footerElement" to={"/dataSec"}>

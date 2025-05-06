@@ -91,6 +91,10 @@ export const translations = {
       customAIAgent: {
         title: "Custom AI Agent",
         description: "Ein KI-Agent, der auf Ihre Bedürfnisse zugeschnitten ist. Er kann verschiedene Aufgaben erledigen und ist anpassbar."
+      },
+      sendMailsLibrary: {
+        title: "E-Mail Bibliothek Python SMTP",
+        description: "Eine Python-Bibliothek, die es ermöglicht, E-Mails über SMTP zu senden. Sie ist einfach zu bedienen und bietet eine Vielzahl von Funktionen."
       }
     },
     navigation: {
@@ -193,6 +197,10 @@ export const translations = {
       customAIAgent: {
         title: "Custom AI Agent",
         description: "A custom-tailored AI agent. It can perform various tasks and is customizable."
+      },
+      sendMailsLibrary: {
+        title: "Email Library Python SMTP",
+        description: "A Python library that allows sending emails via SMTP. It is easy to use and offers a variety of features."
       }
     },
     navigation: {
