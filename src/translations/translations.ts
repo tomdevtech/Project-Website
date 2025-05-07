@@ -3,7 +3,7 @@ export const translations = {
     welcomebox: {
       welcome: {
         headline: "Willkommen auf meiner Portfolio-Website",
-        text: "Hey, ich bin Tom ein kreativer Kopf mit Code im Herzen. Hier dreht sich alles um digitale Visionen, smarte Lösungen und Projekte, die zeigen, was mit Leidenschaft, Technologie und einer Prise Neugier möglich ist.",
+        text: "Als leidenschaftlicher Softwareentwickler und Technologie-Enthusiast widme ich mich der Entwicklung innovativer Lösungen und der Schaffung digitaler Erlebnisse. Mit einem Fokus auf moderne Technologien und best practices, entwickle ich Anwendungen, die nicht nur funktional, sondern auch benutzerfreundlich sind. Hier finden Sie eine Auswahl meiner Projekte, die meine Expertise in verschiedenen Bereichen der Softwareentwicklung demonstrieren.",
         quote: "Die einzige Grenze ist die, die du dir selbst setzt."
       }
     },
@@ -117,7 +117,7 @@ export const translations = {
     welcomebox: {
       welcome: {
         headline: "Welcome to My Portfolio Website",
-        text: "Hey, I'm Tom a creative mind with code at heart. This space is all about digital visions, smart solutions, and projects that showcase what's possible with passion, technology, and a spark of curiosity.",
+        text: "As a passionate software developer and technology enthusiast, I dedicate myself to creating innovative solutions and crafting digital experiences. With a focus on modern technologies and best practices, I develop applications that are not only functional but also user-friendly. Here you'll find a selection of my projects that demonstrate my expertise in various areas of software development.",
         quote: "The only limit is the one you set yourself."
       }
     },
