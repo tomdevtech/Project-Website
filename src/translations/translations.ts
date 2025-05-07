@@ -95,6 +95,14 @@ export const translations = {
       sendMailsLibrary: {
         title: "E-Mail Bibliothek Python SMTP",
         description: "Eine Python-Bibliothek, die es ermöglicht, E-Mails über SMTP zu senden. Sie ist einfach zu bedienen und bietet eine Vielzahl von Funktionen."
+      },
+      aiDataCreator: {
+        title: "AI Data Creator",
+        description: "Ein Tool zur Erstellung und Verwaltung von KI-Daten mit moderner Benutzeroberfläche und umfangreichen Funktionen."
+      },
+      githubUserDashboard: {
+        title: "GitHub User Dashboard",
+        description: "Ein modernes, interaktives Dashboard zur Erkundung von GitHub-Profilen mit Stil und Statistiken. Perfekt für Entwickler, Recruiter und alle, die GitHub-Profile erkunden möchten."
       }
     },
     navigation: {
@@ -109,7 +117,7 @@ export const translations = {
     welcomebox: {
       welcome: {
         headline: "Welcome to My Portfolio Website",
-        text: "Hey, I'm Tom a creative mind with code at heart. This space is all about digital visions, smart solutions, and projects that showcase what’s possible with passion, technology, and a spark of curiosity.",
+        text: "Hey, I'm Tom a creative mind with code at heart. This space is all about digital visions, smart solutions, and projects that showcase what's possible with passion, technology, and a spark of curiosity.",
         quote: "The only limit is the one you set yourself."
       }
     },
@@ -201,6 +209,14 @@ export const translations = {
       sendMailsLibrary: {
         title: "Email Library Python SMTP",
         description: "A Python library that allows sending emails via SMTP. It is easy to use and offers a variety of features."
+      },
+      aiDataCreator: {
+        title: "AI Data Creator",
+        description: "A tool for creating and managing AI data with a modern interface and extensive features."
+      },
+      githubUserDashboard: {
+        title: "GitHub User Dashboard",
+        description: "A modern, interactive dashboard for exploring GitHub profiles with style and stats. Perfect for developers, recruiters, and anyone looking to explore GitHub profiles."
       }
     },
     navigation: {

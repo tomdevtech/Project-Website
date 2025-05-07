@@ -110,6 +110,14 @@ export function ContentFrameBox() {
             projectKey="sendMailsLibrary"
             link={"https://github.com/tomdevtech/SendMailsLibrary"}
           />
+          <ContentFrame
+            projectKey="aiDataCreator"
+            link={"https://github.com/tomdevtech/AI-Data-Creator"}
+          />
+          <ContentFrame
+            projectKey="githubUserDashboard"
+            link={"https://github.com/tomdevtech/GitHub-User-Dashboard"}
+          />
         </div>
         <footer className="footer">
           <NavLink className="footerElement" to={"/dataSec"}>
