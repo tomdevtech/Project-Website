@@ -118,6 +118,10 @@ export function ContentFrameBox() {
             projectKey="githubUserDashboard"
             link={"https://github.com/tomdevtech/GitHub-User-Dashboard"}
           />
+          <ContentFrame
+            projectKey="aiAgentForBC"
+            link={"https://github.com/tomdevtech/AI-Agent-For-BC"}
+          />
         </div>
         <footer className="footer">
           <NavLink className="footerElement" to={"/dataSec"}>

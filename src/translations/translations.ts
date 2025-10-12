@@ -103,6 +103,10 @@ export const translations = {
       githubUserDashboard: {
         title: "GitHub User Dashboard",
         description: "Ein modernes, interaktives Dashboard zur Erkundung von GitHub-Profilen mit Stil und Statistiken. Perfekt für Entwickler, Recruiter und alle, die GitHub-Profile erkunden möchten."
+      },
+      aiAgentForBC: {
+        title: "AI-Agent-For-BC",
+        description: "AL-Implementierung verschiedener KI-Services für Business Central. Das Projekt zeigt, wie KI-Services in AL integriert werden können."
       }
     },
     navigation: {
@@ -217,6 +221,10 @@ export const translations = {
       githubUserDashboard: {
         title: "GitHub User Dashboard",
         description: "A modern, interactive dashboard for exploring GitHub profiles with style and stats. Perfect for developers, recruiters, and anyone looking to explore GitHub profiles."
+      },
+      aiAgentForBC: {
+        title: "AI-Agent-For-BC",
+        description: "AL implementation of various AI services for Business Central. The project demonstrates how to integrate AI services into AL."
       }
     },
     navigation: {
@@ -227,4 +235,4 @@ export const translations = {
       toProject: "To Project"
     }
   }
-}; 
+};
