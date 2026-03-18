@@ -11,7 +11,7 @@ const fixedGlobals = Object.fromEntries(
 
 export default [
   {
-    ignores: ['dist', 'node_modules', 'public']
+    ignores: ['dist', 'node_modules', 'public', 'scripts']
   },
   js.configs.recommended,
   {
