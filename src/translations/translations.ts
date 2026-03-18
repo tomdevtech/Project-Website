@@ -8,6 +8,14 @@ export const translations = {
       }
     },
     projects: {
+      robert: {
+        title: "Robert Assistent",
+        description: "Treffen Sie Robert, Ihren hilfsbereiten Assistenten mit einer Vielzahl von Tools, einschließlich einer Galerie, einem Musikplayer und mehr. Er ist nicht nur in der Lage, Sie mit Witzen zu unterhalten, sondern verfügt auch über ein eingebautes Hilfemenü."
+      },
+      colourChanger: {
+        title: "Colour Changer",
+        description: "Dieses Programm ermöglicht es Ihnen, mit verschiedenen Farben für GUIs zu experimentieren. Sie können hexadezimale Werte eingeben oder aus einer Reihe von Farbnamen wählen."
+      },
       unilexika: {
         title: "Unilexika",
         description: "Dient als kleines Notizbuch zum Speichern und Lesen von Textdateien."
@@ -15,6 +23,10 @@ export const translations = {
       updatedUnilexika: {
         title: "Aktualisiertes Unilexika",
         description: "Die aktualisierte Version ermöglicht jetzt das Bearbeiten bestehender Einträge, nicht nur das Lesen."
+      },
+      listApp: {
+        title: "List App",
+        description: "Diese App ist für Benutzer gedacht, die schnellen und kostenlosen Zugang zu Websites suchen, auf denen sie Bücher kostenlos herunterladen können. Allerdings müssen die 'Entwickleroptionen' für die Installation aktiviert sein."
       },
       linkApp: {
         title: "Link App",
@@ -28,9 +40,33 @@ export const translations = {
         title: "Portfolio Website",
         description: "Meine alte (und erste) Website als Prototyp. Erstellt, um alle Projekte besser organisiert und prägnant zu präsentieren."
       },
+      arrayProject: {
+        title: "Array Project",
+        description: "Dieses Projekt ist ein beispielhaftes Programm, das zeigen soll, wie Elemente in Arrays mit Dimensionen von 1 bis 3 im Allgemeinen gelesen, gelöscht und modifiziert werden."
+      },
+      icAutodocker: {
+        title: "IC-Autodocker",
+        description: "Ein interaktives Docker-Explorationstool, um spielerisch alle Funktionalitäten zu erkunden und zu experimentieren."
+      },
+      icAutodockerPython: {
+        title: "IC-Autodocker Python Package",
+        description: "Vollständiges Python-Paket von IC-Autodocker, ohne GUI."
+      },
+      website: {
+        title: "Website",
+        description: "Neue Portfolio-Website, die meine Projekte als Softwareentwickler präsentiert. Erstellt mit React und Tailwind CSS."
+      },
+      gradeCalculator: {
+        title: "Grade Calculator",
+        description: "Berechnen Sie Ihren Universitätsnotendurchschnitt mit diesem kleinen Programm mit grafischer Benutzeroberfläche."
+      },
       pythonCourse: {
         title: "Python 3 Kurs",
         description: "Ein selbst erstellter Python 3-Kurs zum Erlernen der Grundlagen der Programmiersprache und zum Beherrschen verwandter Konzepte."
+      },
+      apiPictureGenerator: {
+        title: "API Picture Generator",
+        description: "Generiert Bilder mit einer API. Für ein verbessertes Benutzererlebnis wurde eine grafische Benutzeroberfläche mit PyQT5 erstellt."
       },
       exampleLibrary: {
         title: "Example Library",
@@ -40,6 +76,18 @@ export const translations = {
         title: "Learn Programming",
         description: "Das Repository ist eine kuratierte Sammlung von Websites und Plattformen, die Tutorials, Kurse und Informationen anbieten, um Einzelpersonen beim Erlernen und Verbessern ihrer Programmierkenntnisse zu helfen."
       },
+      simpleAIChatBot: {
+        title: "Simple AI Chat Bot",
+        description: "Eine einfache lokale KI, die Ihre priorisierten Ordner scannt und eine Markdown-Dokumentationsdatei erstellt."
+      },
+      aiAPI: {
+        title: "AI API",
+        description: "Ein Beispiel-API-Projekt für die Interaktion mit einem lokalen Modell, die Verwaltung von Modellen und die Handhabung der Autorisierung."
+      },
+      workTimeManagement: {
+        title: "Work Time Management",
+        description: "Das Work Time Management-System ermöglicht es Unternehmen, Arbeitszeiten von Mitarbeitern effizient zu verfolgen, zu verwalten und zu analysieren, um Produktivität und Compliance zu gewährleisten."
+      },
       customAIAgent: {
         title: "Custom AI Agent",
         description: "Ein KI-Agent, der auf Ihre Bedürfnisse zugeschnitten ist. Er kann verschiedene Aufgaben erledigen und ist anpassbar."
@@ -48,73 +96,17 @@ export const translations = {
         title: "E-Mail Bibliothek Python SMTP",
         description: "Eine Python-Bibliothek, die es ermöglicht, E-Mails über SMTP zu senden. Sie ist einfach zu bedienen und bietet eine Vielzahl von Funktionen."
       },
-      agenticScraper: {
-        title: "Agentic-Scraper",
-        description: "A fully local, autonomous AI agent that searches, scrapes, and summarizes the web, websites, YouTube videos, PDFs and RSS feeds. 🕷️ Powered by Ollama, LangGraph and Docker, everything runs on your own machine, no cloud, no API keys, your data stays yours. 🔒"
+      aiDataCreator: {
+        title: "AI Data Creator",
+        description: "Ein Tool zur Erstellung und Verwaltung von KI-Daten mit moderner Benutzeroberfläche und umfangreichen Funktionen."
       },
-      qGISExtensionMapillary: {
-        title: "QGIS-Extension-Mapillary",
-        description: "This extension enables you to retrieve data points from the Mapillary API and insert it as a layer in your current QGIS project."
+      githubUserDashboard: {
+        title: "GitHub User Dashboard",
+        description: "Ein modernes, interaktives Dashboard zur Erkundung von GitHub-Profilen mit Stil und Statistiken. Perfekt für Entwickler, Recruiter und alle, die GitHub-Profile erkunden möchten."
       },
-      aIAgentForBC: {
+      aiAgentForBC: {
         title: "AI-Agent-For-BC",
-        description: "This project is an idea of how to implement different AI services into Business Central via interfaces."
-      },
-      aIDataCreator: {
-        title: "AI-Data-Creator",
-        description: "AI-Data-Creator is a tool that leverages the 🤖 OpenRouter API to generate sample programming course data in JSON format. The project provides a 🐍 Python Flask backend and a ⚡ modern React (Vite + TypeScript) frontend."
-      },
-      gitHubUserDashboard: {
-        title: "GitHub-User-Dashboard",
-        description: "Check out my GitHub User Dashboard 🚀—a modern, interactive interface for exploring GitHub profiles with style and stats! 📊✨"
-      },
-      workTimeMgt: {
-        title: "Work-Time-Mgt",
-        description: " The Work Time Management system enables companies to efficiently track, manage, and analyze employee working hours ⏰📊, ensuring productivity and compliance ✅."
-      },
-      aIAPI: {
-        title: "AI-API",
-        description: "A sample API project for interacting with a local model 🧠, managing models 🔄, and handling authorization 🔐."
-      },
-      simpleAIChatbot: {
-        title: "SimpleAI-Chatbot",
-        description: "A simple local AI that scans your prioritized folders 📂 and creates a markdown documentation file 📝."
-      },
-      imageGenerator: {
-        title: "ImageGenerator",
-        description: "ImageGenerator – Ein GitHub-Projekt."
-      },
-      courseCreator: {
-        title: "CourseCreator",
-        description: "The Course creator provides a simple, but modern GUI and the possibility to create your own course. You have the options to publish your result as Word document, html, markdown or pdf file."
-      },
-      gradecalculator: {
-        title: "gradecalculator",
-        description: "gradecalculator – Ein GitHub-Projekt."
-      },
-      arrays: {
-        title: "Arrays",
-        description: "This project is made for my computer science course and should show, how you can change array values and how they change. You have a small console menu, which helps to execute the orders from the project."
-      },
-      iCAutodockerPythonPackage: {
-        title: "IC-Autodocker-Python-Package",
-        description: "IC-Autodocker-Python-Package – Ein GitHub-Projekt."
-      },
-      iCAutodocker: {
-        title: "IC-Autodocker",
-        description: "This project is for people, who want to learn Docker. It is planned, with an easy GUI and supportative functions for the beginning. Planned are the project itself and an instructional web site, which will guide the user, through some processes."
-      },
-      listenapp: {
-        title: "Listenapp",
-        description: "These App is for people who want to have a faster and closer look, to pages,  where you can download books for free."
-      },
-      colourchanger: {
-        title: "Colourchanger",
-        description: "Dieses Programm dient zum ausprobieren unterschiedlicher Farben für GUIs und entstand als Hilfestellung für das Design meines ersten Projektes. Ich hoffe es leistet euch ebenfalls gute Dienste:)"
-      },
-      robertAssistent: {
-        title: "Robert-Assistent",
-        description: "Robert ist ein kleiner Assistent, welcher einige Tools wie eine Galerie, einen Musikplayer und noch vieles mehr besitzt. Ich hoffe euch gefällt das Programm, schreibt mir gerne eure Meinung oder Verbesserungsvorschläge auf Instagram(Illusive_Coder)."
+        description: "AL-Implementierung verschiedener KI-Services für Business Central. Das Projekt zeigt, wie KI-Services in AL integriert werden können."
       }
     },
     navigation: {
@@ -134,6 +126,14 @@ export const translations = {
       }
     },
     projects: {
+      robert: {
+        title: "Robert Assistant",
+        description: "Meet Robert, your helpful assistant with a wide range of tools, including a gallery, a music player, and more. He's not only capable of entertaining you with jokes but also comes with a built-in help menu."
+      },
+      colourChanger: {
+        title: "Colour Changer",
+        description: "This program allows you to experiment with various colors for GUIs. You can input hexadecimal values or choose from a range of color names."
+      },
       unilexika: {
         title: "Unilexika",
         description: "Serves as a small notebook for storing and reading text files."
@@ -141,6 +141,10 @@ export const translations = {
       updatedUnilexika: {
         title: "Updated Unilexika",
         description: "The updated version now allows editing existing entries, not just reading them."
+      },
+      listApp: {
+        title: "List App",
+        description: "This app is designed for users who seek quick and free access to websites where they can download books for free. However, 'Developer Options' must be enabled for the installation."
       },
       linkApp: {
         title: "Link App",
@@ -154,9 +158,33 @@ export const translations = {
         title: "Portfolio Website",
         description: "My old (and first) website as a prototype. Created to showcase all projects in a better organized and concise manner."
       },
+      arrayProject: {
+        title: "Array Project",
+        description: "This project is an exemplary program aimed at illustrating how elements in arrays, with dimensions ranging from 1 to 3, are read, deleted, and modified in general."
+      },
+      icAutodocker: {
+        title: "IC-Autodocker",
+        description: "An interactive Docker exploration tool to playfully approach and experiment with all functionalities."
+      },
+      icAutodockerPython: {
+        title: "IC-Autodocker Python Package",
+        description: "Full-featured Python package of IC-Autodocker, excluding the GUI."
+      },
+      website: {
+        title: "Website",
+        description: "New portfolio website showcasing my projects as a software developer. Built with React and Tailwind CSS."
+      },
+      gradeCalculator: {
+        title: "Grade Calculator",
+        description: "Calculate your university grade point average with this small program featuring a graphical user interface."
+      },
       pythonCourse: {
         title: "Python 3 Course",
         description: "A self-created Python 3 course for learning the fundamentals of the programming language and mastering related concepts."
+      },
+      apiPictureGenerator: {
+        title: "API Picture Generator",
+        description: "Generates images using an API. For enhanced user experience, a graphical interface was created using PyQT5."
       },
       exampleLibrary: {
         title: "Example Library",
@@ -166,6 +194,18 @@ export const translations = {
         title: "Learn Programming",
         description: "The repository is a curated collection of websites and platforms offering tutorials, courses, and information to help individuals learn and enhance their programming skills."
       },
+      simpleAIChatBot: {
+        title: "Simple AI Chat Bot",
+        description: "A simple local AI that scans your prioritized folders and creates a markdown documentation file."
+      },
+      aiAPI: {
+        title: "AI API",
+        description: "A sample API project for interacting with a local model, managing models, and handling authorization."
+      },
+      workTimeManagement: {
+        title: "Work Time Management",
+        description: "The Work Time Management system enables companies to efficiently track, manage, and analyze employee working hours, ensuring productivity and compliance."
+      },
       customAIAgent: {
         title: "Custom AI Agent",
         description: "A custom-tailored AI agent. It can perform various tasks and is customizable."
@@ -174,73 +214,17 @@ export const translations = {
         title: "Email Library Python SMTP",
         description: "A Python library that allows sending emails via SMTP. It is easy to use and offers a variety of features."
       },
-      agenticScraper: {
-        title: "Agentic-Scraper",
-        description: "A fully local, autonomous AI agent that searches, scrapes, and summarizes the web, websites, YouTube videos, PDFs and RSS feeds. 🕷️ Powered by Ollama, LangGraph and Docker, everything runs on your own machine, no cloud, no API keys, your data stays yours. 🔒"
+      aiDataCreator: {
+        title: "AI Data Creator",
+        description: "A tool for creating and managing AI data with a modern interface and extensive features."
       },
-      qGISExtensionMapillary: {
-        title: "QGIS-Extension-Mapillary",
-        description: "This extension enables you to retrieve data points from the Mapillary API and insert it as a layer in your current QGIS project."
+      githubUserDashboard: {
+        title: "GitHub User Dashboard",
+        description: "A modern, interactive dashboard for exploring GitHub profiles with style and stats. Perfect for developers, recruiters, and anyone looking to explore GitHub profiles."
       },
-      aIAgentForBC: {
+      aiAgentForBC: {
         title: "AI-Agent-For-BC",
-        description: "This project is an idea of how to implement different AI services into Business Central via interfaces."
-      },
-      aIDataCreator: {
-        title: "AI-Data-Creator",
-        description: "AI-Data-Creator is a tool that leverages the 🤖 OpenRouter API to generate sample programming course data in JSON format. The project provides a 🐍 Python Flask backend and a ⚡ modern React (Vite + TypeScript) frontend."
-      },
-      gitHubUserDashboard: {
-        title: "GitHub-User-Dashboard",
-        description: "Check out my GitHub User Dashboard 🚀—a modern, interactive interface for exploring GitHub profiles with style and stats! 📊✨"
-      },
-      workTimeMgt: {
-        title: "Work-Time-Mgt",
-        description: " The Work Time Management system enables companies to efficiently track, manage, and analyze employee working hours ⏰📊, ensuring productivity and compliance ✅."
-      },
-      aIAPI: {
-        title: "AI-API",
-        description: "A sample API project for interacting with a local model 🧠, managing models 🔄, and handling authorization 🔐."
-      },
-      simpleAIChatbot: {
-        title: "SimpleAI-Chatbot",
-        description: "A simple local AI that scans your prioritized folders 📂 and creates a markdown documentation file 📝."
-      },
-      imageGenerator: {
-        title: "ImageGenerator",
-        description: "ImageGenerator – A GitHub project."
-      },
-      courseCreator: {
-        title: "CourseCreator",
-        description: "The Course creator provides a simple, but modern GUI and the possibility to create your own course. You have the options to publish your result as Word document, html, markdown or pdf file."
-      },
-      gradecalculator: {
-        title: "gradecalculator",
-        description: "gradecalculator – A GitHub project."
-      },
-      arrays: {
-        title: "Arrays",
-        description: "This project is made for my computer science course and should show, how you can change array values and how they change. You have a small console menu, which helps to execute the orders from the project."
-      },
-      iCAutodockerPythonPackage: {
-        title: "IC-Autodocker-Python-Package",
-        description: "IC-Autodocker-Python-Package – A GitHub project."
-      },
-      iCAutodocker: {
-        title: "IC-Autodocker",
-        description: "This project is for people, who want to learn Docker. It is planned, with an easy GUI and supportative functions for the beginning. Planned are the project itself and an instructional web site, which will guide the user, through some processes."
-      },
-      listenapp: {
-        title: "Listenapp",
-        description: "These App is for people who want to have a faster and closer look, to pages,  where you can download books for free."
-      },
-      colourchanger: {
-        title: "Colourchanger",
-        description: "Dieses Programm dient zum ausprobieren unterschiedlicher Farben für GUIs und entstand als Hilfestellung für das Design meines ersten Projektes. Ich hoffe es leistet euch ebenfalls gute Dienste:)"
-      },
-      robertAssistent: {
-        title: "Robert-Assistent",
-        description: "Robert ist ein kleiner Assistent, welcher einige Tools wie eine Galerie, einen Musikplayer und noch vieles mehr besitzt. Ich hoffe euch gefällt das Programm, schreibt mir gerne eure Meinung oder Verbesserungsvorschläge auf Instagram(Illusive_Coder)."
+        description: "AL implementation of various AI services for Business Central. The project demonstrates how to integrate AI services into AL."
       }
     },
     navigation: {
