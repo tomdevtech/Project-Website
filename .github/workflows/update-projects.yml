@@ -1,8 +1,6 @@
 name: Update Projects
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"  # Alle 30 Minuten prüfen
   workflow_dispatch:         # Manuell auslösbar zum Testen
 
 jobs:
