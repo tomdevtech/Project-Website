@@ -2,8 +2,8 @@ name: Update Projects
 
 on:
   schedule:
-    - cron: "0 2 * * *"  # Jeden Tag um 02:00 Uhr
-  workflow_dispatch:      # Manuell auslösbar (z.B. zum Testen)
+    - cron: "*/30 * * * *"  # Alle 30 Minuten prüfen
+  workflow_dispatch:         # Manuell auslösbar zum Testen
 
 jobs:
   update:
@@ -20,6 +20,9 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Dependencies installieren
+        run: npm ci
+
       - name: Prüfe auf neue Repos & aktualisiere Dateien
         id: update
         env:
@@ -32,7 +35,7 @@ jobs:
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Commit & Push (nur bei Änderungen)
+      - name: Commit geänderte Quelldateien
         if: steps.update.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
@@ -40,3 +43,12 @@ jobs:
           git add src/translations/translations.ts src/components/ContentFrameBox.tsx
           git commit -m "feat: neue Projekte automatisch hinzugefügt [skip ci]"
           git push
+
+      - name: Website neu bauen & deployen
+        if: steps.update.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          npm run deploy
