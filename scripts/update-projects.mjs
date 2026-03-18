@@ -297,8 +297,16 @@ async function main() {
   const repos = await getAllRepos();
   console.log(`   → ${repos.length} öffentliche Repos`);
 
-  // Nur Repos die noch keinen Key in translations.ts haben
-  // UND bereits eine README besitzen (leere Repos werden übersprungen)
+  // Alle aktuellen Repo-Keys von GitHub
+  const liveKeys = new Set(repos.map((r) => toKey(r.name)));
+
+  // ── Gelöschte Repos erkennen ──────────────────────────────────────────────
+  const removedKeys = [...existing.keys()].filter((key) => !liveKeys.has(key));
+  if (removedKeys.length > 0) {
+    console.log(`🗑️  ${removedKeys.length} gelöschtes Repo(s): ${removedKeys.join(", ")}`);
+  }
+
+  // ── Neue Repos erkennen (noch kein Key + README vorhanden) ────────────────
   const newRepos = [];
   for (const repo of repos) {
     if (existing.has(toKey(repo.name))) continue;
@@ -310,12 +318,15 @@ async function main() {
     newRepos.push({ repo, readme });
   }
 
-  if (newRepos.length === 0) {
-    console.log("✅ Keine neuen Repos mit README – Dateien bleiben unverändert, kein Commit.");
+  // Nichts zu tun wenn weder neue noch gelöschte Repos existieren
+  if (newRepos.length === 0 && removedKeys.length === 0) {
+    console.log("✅ Keine Änderungen – Dateien bleiben unverändert, kein Commit.");
     process.exit(0);
   }
 
-  console.log(`✨ ${newRepos.length} neue Repo(s): ${newRepos.map(({ repo: r }) => r.name).join(", ")}`);
+  if (newRepos.length > 0) {
+    console.log(`✨ ${newRepos.length} neue Repo(s): ${newRepos.map(({ repo: r }) => r.name).join(", ")}`);
+  }
 
   // KI-Beschreibungen nur für neue Repos
   const generated = new Map();
@@ -327,11 +338,12 @@ async function main() {
     await new Promise((r) => setTimeout(r, 400));
   }
 
-  // Alle Projekte zusammenführen:
-  // Bestehende in alter Reihenfolge → neue am Ende
+  // Bestehende in alter Reihenfolge → gelöschte überspringen → neue am Ende
+  const removedSet = new Set(removedKeys);
   const allProjects = [];
 
   for (const key of order) {
+    if (removedSet.has(key)) continue;
     const e = existing.get(key);
     if (!e) continue;
     allProjects.push({ key, ...e });
@@ -348,7 +360,10 @@ async function main() {
   await fs.writeFile(CONTENTFRAME_FILE, buildContentFrameBox(allProjects), "utf-8");
   console.log("✅ ContentFrameBox.tsx aktualisiert");
 
-  console.log(`🎉 ${generated.size} neues Projekt(e) hinzugefügt.`);
+  const summary = [];
+  if (generated.size > 0) summary.push(`${generated.size} hinzugefügt`);
+  if (removedKeys.length > 0) summary.push(`${removedKeys.length} entfernt`);
+  console.log(`🎉 Fertig – ${summary.join(", ")}.`);
 }
 
 main().catch((err) => {
