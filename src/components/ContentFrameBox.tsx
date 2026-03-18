@@ -124,7 +124,7 @@ export function ContentFrameBox() {
           />
           <ContentFrame
             projectKey="scrapeAgent"
-            link={"https://github.com/tomdevtech/Scraper-Agent"}
+            link={"https://github.com/tomdevtech/Agentic-Scraper"}
           />
         </div>
         <footer className="footer">

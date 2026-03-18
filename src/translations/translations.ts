@@ -109,7 +109,7 @@ export const translations = {
         description: "AL-Implementierung verschiedener KI-Services für Business Central. Das Projekt zeigt, wie KI-Services in AL integriert werden können."
       },
       scrapeAgent: {
-    title: "Scraper Agent",
+    title: "Agentic Scraper",
     description: "Ein vollständig lokaler KI-Agent, der selbstständig Webseiten, YouTube-Videos, PDFs und RSS-Feeds durchsucht und zusammenfasst. Läuft komplett auf deiner eigenen Hardware — keine Cloud, keine API-Keys, deine Daten bleiben bei dir.",
       },
     },
@@ -231,7 +231,7 @@ export const translations = {
         description: "AL implementation of various AI services for Business Central. The project demonstrates how to integrate AI services into AL."
       },
       scrapeAgent: {
-        title: "Scraper Agent",
+        title: "Agentic Scraper",
         description: "A fully local AI agent that autonomously searches, scrapes, and summarizes websites, YouTube videos, PDFs and RSS feeds. Runs entirely on your own hardware — no cloud, no API keys, your data stays yours.",
   }
     },
