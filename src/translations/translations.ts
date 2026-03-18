@@ -107,6 +107,74 @@ export const translations = {
       aiAgentForBC: {
         title: "AI-Agent-For-BC",
         description: "AL-Implementierung verschiedener KI-Services für Business Central. Das Projekt zeigt, wie KI-Services in AL integriert werden können."
+      },
+      agenticScraper: {
+        title: "Agentic-Scraper",
+        description: "A fully local, autonomous AI agent that searches, scrapes, and summarizes the web, websites, YouTube videos, PDFs and RSS feeds. 🕷️ Powered by Ollama, LangGraph and Docker, everything runs on your own machine, no cloud, no API keys, your data stays yours. 🔒"
+      },
+      qGISExtensionMapillary: {
+        title: "QGIS-Extension-Mapillary",
+        description: "This extension enables you to retrieve data points from the Mapillary API and insert it as a layer in your current QGIS project."
+      },
+      aIAgentForBC: {
+        title: "AI-Agent-For-BC",
+        description: "This project is an idea of how to implement different AI services into Business Central via interfaces."
+      },
+      aIDataCreator: {
+        title: "AI-Data-Creator",
+        description: "AI-Data-Creator is a tool that leverages the 🤖 OpenRouter API to generate sample programming course data in JSON format. The project provides a 🐍 Python Flask backend and a ⚡ modern React (Vite + TypeScript) frontend."
+      },
+      gitHubUserDashboard: {
+        title: "GitHub-User-Dashboard",
+        description: "Check out my GitHub User Dashboard 🚀—a modern, interactive interface for exploring GitHub profiles with style and stats! 📊✨"
+      },
+      workTimeMgt: {
+        title: "Work-Time-Mgt",
+        description: " The Work Time Management system enables companies to efficiently track, manage, and analyze employee working hours ⏰📊, ensuring productivity and compliance ✅."
+      },
+      aIAPI: {
+        title: "AI-API",
+        description: "A sample API project for interacting with a local model 🧠, managing models 🔄, and handling authorization 🔐."
+      },
+      simpleAIChatbot: {
+        title: "SimpleAI-Chatbot",
+        description: "A simple local AI that scans your prioritized folders 📂 and creates a markdown documentation file 📝."
+      },
+      imageGenerator: {
+        title: "ImageGenerator",
+        description: "ImageGenerator – Ein GitHub-Projekt."
+      },
+      courseCreator: {
+        title: "CourseCreator",
+        description: "The Course creator provides a simple, but modern GUI and the possibility to create your own course. You have the options to publish your result as Word document, html, markdown or pdf file."
+      },
+      gradecalculator: {
+        title: "gradecalculator",
+        description: "gradecalculator – Ein GitHub-Projekt."
+      },
+      arrays: {
+        title: "Arrays",
+        description: "This project is made for my computer science course and should show, how you can change array values and how they change. You have a small console menu, which helps to execute the orders from the project."
+      },
+      iCAutodockerPythonPackage: {
+        title: "IC-Autodocker-Python-Package",
+        description: "IC-Autodocker-Python-Package – Ein GitHub-Projekt."
+      },
+      iCAutodocker: {
+        title: "IC-Autodocker",
+        description: "This project is for people, who want to learn Docker. It is planned, with an easy GUI and supportative functions for the beginning. Planned are the project itself and an instructional web site, which will guide the user, through some processes."
+      },
+      listenapp: {
+        title: "Listenapp",
+        description: "These App is for people who want to have a faster and closer look, to pages,  where you can download books for free."
+      },
+      colourchanger: {
+        title: "Colourchanger",
+        description: "Dieses Programm dient zum ausprobieren unterschiedlicher Farben für GUIs und entstand als Hilfestellung für das Design meines ersten Projektes. Ich hoffe es leistet euch ebenfalls gute Dienste:)"
+      },
+      robertAssistent: {
+        title: "Robert-Assistent",
+        description: "Robert ist ein kleiner Assistent, welcher einige Tools wie eine Galerie, einen Musikplayer und noch vieles mehr besitzt. Ich hoffe euch gefällt das Programm, schreibt mir gerne eure Meinung oder Verbesserungsvorschläge auf Instagram(Illusive_Coder)."
       }
     },
     navigation: {
@@ -225,6 +293,74 @@ export const translations = {
       aiAgentForBC: {
         title: "AI-Agent-For-BC",
         description: "AL implementation of various AI services for Business Central. The project demonstrates how to integrate AI services into AL."
+      },
+      agenticScraper: {
+        title: "Agentic-Scraper",
+        description: "A fully local, autonomous AI agent that searches, scrapes, and summarizes the web, websites, YouTube videos, PDFs and RSS feeds. 🕷️ Powered by Ollama, LangGraph and Docker, everything runs on your own machine, no cloud, no API keys, your data stays yours. 🔒"
+      },
+      qGISExtensionMapillary: {
+        title: "QGIS-Extension-Mapillary",
+        description: "This extension enables you to retrieve data points from the Mapillary API and insert it as a layer in your current QGIS project."
+      },
+      aIAgentForBC: {
+        title: "AI-Agent-For-BC",
+        description: "This project is an idea of how to implement different AI services into Business Central via interfaces."
+      },
+      aIDataCreator: {
+        title: "AI-Data-Creator",
+        description: "AI-Data-Creator is a tool that leverages the 🤖 OpenRouter API to generate sample programming course data in JSON format. The project provides a 🐍 Python Flask backend and a ⚡ modern React (Vite + TypeScript) frontend."
+      },
+      gitHubUserDashboard: {
+        title: "GitHub-User-Dashboard",
+        description: "Check out my GitHub User Dashboard 🚀—a modern, interactive interface for exploring GitHub profiles with style and stats! 📊✨"
+      },
+      workTimeMgt: {
+        title: "Work-Time-Mgt",
+        description: " The Work Time Management system enables companies to efficiently track, manage, and analyze employee working hours ⏰📊, ensuring productivity and compliance ✅."
+      },
+      aIAPI: {
+        title: "AI-API",
+        description: "A sample API project for interacting with a local model 🧠, managing models 🔄, and handling authorization 🔐."
+      },
+      simpleAIChatbot: {
+        title: "SimpleAI-Chatbot",
+        description: "A simple local AI that scans your prioritized folders 📂 and creates a markdown documentation file 📝."
+      },
+      imageGenerator: {
+        title: "ImageGenerator",
+        description: "ImageGenerator – A GitHub project."
+      },
+      courseCreator: {
+        title: "CourseCreator",
+        description: "The Course creator provides a simple, but modern GUI and the possibility to create your own course. You have the options to publish your result as Word document, html, markdown or pdf file."
+      },
+      gradecalculator: {
+        title: "gradecalculator",
+        description: "gradecalculator – A GitHub project."
+      },
+      arrays: {
+        title: "Arrays",
+        description: "This project is made for my computer science course and should show, how you can change array values and how they change. You have a small console menu, which helps to execute the orders from the project."
+      },
+      iCAutodockerPythonPackage: {
+        title: "IC-Autodocker-Python-Package",
+        description: "IC-Autodocker-Python-Package – A GitHub project."
+      },
+      iCAutodocker: {
+        title: "IC-Autodocker",
+        description: "This project is for people, who want to learn Docker. It is planned, with an easy GUI and supportative functions for the beginning. Planned are the project itself and an instructional web site, which will guide the user, through some processes."
+      },
+      listenapp: {
+        title: "Listenapp",
+        description: "These App is for people who want to have a faster and closer look, to pages,  where you can download books for free."
+      },
+      colourchanger: {
+        title: "Colourchanger",
+        description: "Dieses Programm dient zum ausprobieren unterschiedlicher Farben für GUIs und entstand als Hilfestellung für das Design meines ersten Projektes. Ich hoffe es leistet euch ebenfalls gute Dienste:)"
+      },
+      robertAssistent: {
+        title: "Robert-Assistent",
+        description: "Robert ist ein kleiner Assistent, welcher einige Tools wie eine Galerie, einen Musikplayer und noch vieles mehr besitzt. Ich hoffe euch gefällt das Programm, schreibt mir gerne eure Meinung oder Verbesserungsvorschläge auf Instagram(Illusive_Coder)."
       }
     },
     navigation: {
