@@ -232,7 +232,7 @@ export const translations = {
       },
       scrapeAgent: {
         title: "Agentic Scraper",
-        description: "A fully local AI agent that autonomously searches, scrapes, and summarizes websites, YouTube videos, PDFs and RSS feeds. Runs entirely on your own hardware — no cloud, no API keys, your data stays yours.",
+        description: "A fully local AI agent that autonomously searches, scrapes, and summarizes websites, YouTube videos, PDFs and RSS feeds. Runs entirely on your own hardware, no cloud, no API keys, your data stays yours.",
   }
     },
     navigation: {
