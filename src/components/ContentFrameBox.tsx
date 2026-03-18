@@ -23,24 +23,12 @@ export function ContentFrameBox() {
         />
         <div className="body">
           <ContentFrame
-            projectKey="robert"
-            link={"https://github.com/IllusiveCoder/Robert-Assistent"}
-          />
-          <ContentFrame
-            projectKey="colourChanger"
-            link={"https://github.com/IllusiveCoder/Colourchanger"}
-          />
-          <ContentFrame
             projectKey="unilexika"
             link={"https://github.com/IllusiveCoder/Unilexika"}
           />
           <ContentFrame
             projectKey="updatedUnilexika"
             link={"https://github.com/IllusiveCoder/Updated-Unilexika"}
-          />
-          <ContentFrame
-            projectKey="listApp"
-            link={"https://github.com/IllusiveCoder/Listenapp"}
           />
           <ContentFrame
             projectKey="linkApp"
@@ -55,32 +43,8 @@ export function ContentFrameBox() {
             link={"https://github.com/IllusiveCoder/Portfolio"}
           />
           <ContentFrame
-            projectKey="arrayProject"
-            link={"https://github.com/IllusiveCoder/Arrays"}
-          />
-          <ContentFrame
-            projectKey="icAutodocker"
-            link={"https://github.com/IllusiveCoder/IC-Autodocker"}
-          />
-          <ContentFrame
-            projectKey="icAutodockerPython"
-            link={"https://github.com/IllusiveCoder/IC-Autodocker-Python-Package"}
-          />
-          <ContentFrame
-            projectKey="website"
-            link={"https://github.com/IllusiveCoder/Project-Website"}
-          />
-          <ContentFrame
-            projectKey="gradeCalculator"
-            link={"https://github.com/IllusiveCoder/gradecalculator"}
-          />
-          <ContentFrame
             projectKey="pythonCourse"
             link={"https://github.com/IllusiveCoder/Python-Course"}
-          />
-          <ContentFrame
-            projectKey="apiPictureGenerator"
-            link={"https://github.com/IllusiveCoder/ImageGenerator"}
           />
           <ContentFrame
             projectKey="exampleLibrary"
@@ -91,36 +55,12 @@ export function ContentFrameBox() {
             link={"https://github.com/IllusiveCoder/LearnProgramming"}
           />
           <ContentFrame
-            projectKey="simpleAIChatBot"
-            link={"https://github.com/tomdevtech/SimpleAI-Chatbot"}
-          />
-          <ContentFrame
-            projectKey="aiAPI"
-            link={"https://github.com/tomdevtech/AI-API"}
-          />
-          <ContentFrame
-            projectKey="workTimeManagement"
-            link={"https://github.com/tomdevtech/Work-Time-Mgt"}
-          />
-          <ContentFrame
             projectKey="customAIAgent"
             link={"https://github.com/tomdevtech/Custom-AI-Agent"}
           />
           <ContentFrame
             projectKey="sendMailsLibrary"
             link={"https://github.com/tomdevtech/SendMailsLibrary"}
-          />
-          <ContentFrame
-            projectKey="aiDataCreator"
-            link={"https://github.com/tomdevtech/AI-Data-Creator"}
-          />
-          <ContentFrame
-            projectKey="githubUserDashboard"
-            link={"https://github.com/tomdevtech/GitHub-User-Dashboard"}
-          />
-          <ContentFrame
-            projectKey="aiAgentForBC"
-            link={"https://github.com/tomdevtech/AI-Agent-For-BC"}
           />
           <ContentFrame
             projectKey="agenticScraper"
