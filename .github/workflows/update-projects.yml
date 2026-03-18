@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pages: write
+      id-token: write
 
     steps:
       - name: Checkout
@@ -44,11 +46,20 @@ jobs:
           git commit -m "feat: neue Projekte automatisch hinzugefügt [skip ci]"
           git push
 
-      - name: Website neu bauen & deployen
+      - name: Website bauen
         if: steps.update.outputs.changed == 'true'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          npm run deploy
+        run: npm run build
+
+      - name: GitHub Pages vorbereiten
+        if: steps.update.outputs.changed == 'true'
+        uses: actions/configure-pages@v4
+
+      - name: dist/ hochladen
+        if: steps.update.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Auf GitHub Pages deployen
+        if: steps.update.outputs.changed == 'true'
+        uses: actions/deploy-pages@v4
