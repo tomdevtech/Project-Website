@@ -25,7 +25,7 @@ export function About() {
       <div className="grid md:grid-cols-2 gap-8 md:gap-12 lg:gap-20 items-center max-w-5xl mx-auto">
 
         {/* Left */}
-        <div ref={textRef} className="reveal">
+        <div ref={textRef} className="reveal min-w-0">
           <p className="text-[0.7rem] tracking-[0.18em] uppercase font-semibold mb-4" style={{ color:'var(--accent)' }}>
             {language === 'de' ? 'Über mich' : 'About me'}
           </p>
@@ -57,7 +57,7 @@ export function About() {
         </div>
 
         {/* Right — code card */}
-        <div ref={codeRef} className="reveal" style={{ transitionDelay:'0.12s' }}>
+        <div ref={codeRef} className="reveal min-w-0" style={{ transitionDelay:'0.12s' }}>
           <div className="relative rounded-2xl overflow-hidden" style={{ background:'#000f1a', border:'1px solid var(--border)' }}>
             {/* Window bar */}
             <div className="flex items-center gap-2 px-5 py-3.5" style={{ borderBottom:'1px solid var(--border)', background:'rgba(255,255,255,0.02)' }}>

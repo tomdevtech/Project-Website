@@ -1,4 +1,3 @@
-import React from 'react'
 import { useLanguage } from '../context/LanguageContext'
 import { translations } from '../translations/translations'
 
@@ -90,9 +89,9 @@ export function Hero() {
 
     {/* Tech ticker — separate row, never overlaps */}
     <div className="overflow-hidden py-4 bg-bg-2" style={{ borderTop:'1px solid var(--border)', borderBottom:'1px solid var(--border)' }}>
-      <div className="flex gap-8 sm:gap-12 animate-ticker w-max select-none">
+      <div className="flex animate-ticker w-max select-none">
         {[...TECH,...TECH].map((tech,i) => (
-          <span key={i} className="flex items-center gap-2 text-[0.72rem] font-medium tracking-[0.08em] uppercase whitespace-nowrap" style={{ color:'rgba(255,255,255,0.18)' }}>
+          <span key={i} className="flex items-center gap-2 text-[0.72rem] font-medium tracking-[0.08em] uppercase whitespace-nowrap pr-10" style={{ color:'rgba(255,255,255,0.18)' }}>
             <span className="w-1 h-1 rounded-full" style={{ background:'var(--accent)', opacity:0.5 }}/>
             {tech}
           </span>
