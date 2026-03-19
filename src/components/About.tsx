@@ -22,7 +22,7 @@ export function About() {
 
   return (
     <section id="about" className="py-20 md:py-32 px-5 sm:px-8 md:px-14 lg:px-24">
-      <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center max-w-5xl mx-auto">
+      <div className="grid md:grid-cols-2 gap-8 md:gap-12 lg:gap-20 items-center max-w-5xl mx-auto">
 
         {/* Left */}
         <div ref={textRef} className="reveal">
@@ -65,8 +65,8 @@ export function About() {
               <span className="text-white/20 text-[0.7rem] font-mono ml-2">tom.ts</span>
             </div>
             {/* Code */}
-            <div className="p-6 overflow-x-auto">
-              <pre className="text-[0.78rem] leading-[2] relative z-10" style={{ fontFamily:'var(--font-mono)' }}>
+            <div className="p-4 sm:p-6 overflow-x-auto">
+              <pre className="text-[0.65rem] xs:text-[0.72rem] sm:text-[0.78rem] leading-[1.85] sm:leading-[2] relative z-10" style={{ fontFamily:'var(--font-mono)' }}>
                 <code>
                   <span className="c-keyword">const</span> <span className="c-var">tom</span>{` = {`}{'\n'}
                   {'  '}<span className="c-var">name</span>{`:`} <span className="c-str">"Tom DevTech"</span>,{'\n'}

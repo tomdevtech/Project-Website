@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import React, { useRef } from 'react'
 import type { Project, TagVariant } from '../data/portfolio'
 
 // ── Tag styles ────────────────────────────────────────────────────────

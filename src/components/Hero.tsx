@@ -75,7 +75,7 @@ export function Hero() {
         </div>
 
         {/* Stats */}
-        <div className="flex flex-wrap gap-8 mt-14 pt-8 animate-[fadeUp_0.7s_0.38s_ease_both]"
+        <div className="flex flex-wrap gap-6 sm:gap-8 mt-10 sm:mt-14 pt-6 sm:pt-8 animate-[fadeUp_0.7s_0.38s_ease_both]"
           style={{ borderTop:'1px solid var(--border)' }}>
           {STATS.map(s => (
             <div key={s.value}>
@@ -90,7 +90,7 @@ export function Hero() {
 
     {/* Tech ticker — separate row, never overlaps */}
     <div className="overflow-hidden py-4 bg-bg-2" style={{ borderTop:'1px solid var(--border)', borderBottom:'1px solid var(--border)' }}>
-      <div className="flex gap-12 animate-ticker w-max select-none">
+      <div className="flex gap-8 sm:gap-12 animate-ticker w-max select-none">
         {[...TECH,...TECH].map((tech,i) => (
           <span key={i} className="flex items-center gap-2 text-[0.72rem] font-medium tracking-[0.08em] uppercase whitespace-nowrap" style={{ color:'rgba(255,255,255,0.18)' }}>
             <span className="w-1 h-1 rounded-full" style={{ background:'var(--accent)', opacity:0.5 }}/>
