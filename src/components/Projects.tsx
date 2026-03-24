@@ -117,7 +117,7 @@ function ProjectCard({
   title: string;
   description: string;
   active: boolean;
-  onDragStart?: (e: React.DragEvent<HTMLAnchorElement>) => void;
+  onDragStart?: React.DragEventHandler<HTMLAnchorElement>;
 }) {
   const onMove = (e: React.MouseEvent<HTMLAnchorElement>) => {
     const r = e.currentTarget.getBoundingClientRect();
@@ -390,7 +390,12 @@ export function Projects() {
     animateToPosition(positionRef.current - stepRef.current);
   }, [animateToPosition]);
 
-  const handleTransitionEnd = useCallback(() => {
+  const handleTransitionEnd = useCallback(
+    (e: React.TransitionEvent<HTMLDivElement>) => {
+      if (e.target !== trackRef.current || e.propertyName !== "transform") {
+        return;
+      }
+
     if (!isAnimatingRef.current) return;
 
     isAnimatingRef.current = false;
@@ -400,7 +405,9 @@ export function Projects() {
     if (normalized !== positionRef.current) {
       jumpWithoutAnimation(normalized);
     }
-  }, [jumpWithoutAnimation, normalizePosition]);
+    },
+    [jumpWithoutAnimation, normalizePosition],
+  );
 
   useEffect(() => {
     measure();
