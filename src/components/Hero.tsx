@@ -2,16 +2,16 @@ import { useLanguage } from '../context/LanguageContext'
 import { translations } from '../translations/translations'
 
 const STATS = [
-  { value:'663+', de:'Commits',  en:'Commits'  },
-  { value:'29+', de:'Projekte', en:'Projects' },
-  { value:'8+',  de:'Jahre Erfahrung', en:'Years of Experience'},
+  { value:'692+', de:'Commits',  en:'Commits'  },
+  { value:'32+', de:'Projekte', en:'Projects' },
+  { value:'9+',  de:'Jahre Erfahrung', en:'Years of Experience'},
 ]
 
 const TECH = [
   // Languages
   'React', 'Python', 'TypeScript', 'JavaScript', 'Java', 'Ruby', 'HTML', 'CSS', 'Markdown', 'AL',
   // Tools & Platforms
-  'Docker', 'Git', 'GitHub', 'GitHub Actions', 'GitHub Pages', 'VS Code', 'Android', 'AI'
+  'Docker', 'Git', 'GitHub', 'Azure' ,'VS Code', 'Android', 'Postman', 'LM Studio', 'Obsidian'
 ]
 
 export function Hero() {
@@ -34,13 +34,6 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative max-w-4xl w-full mx-auto">
-        {/* Badge */}
-        <div className="inline-flex items-center gap-2 border text-[0.75rem] font-medium px-3.5 py-1.5 rounded-full mb-8 tracking-wide animate-fade-up"
-          style={{ background:'rgba(47,181,232,0.08)', borderColor:'rgba(47,181,232,0.25)', color:'var(--accent2)' }}>
-          <span className="w-1.5 h-1.5 rounded-full bg-teal" style={{ boxShadow:'0 0 6px #2dd4bf' }} />
-          {language === 'de' ? 'Offen für neue Projekte' : 'Available for projects'}
-        </div>
-
         {/* Headline */}
         <h1 className="font-display font-bold leading-[1.02] tracking-[-0.03em] mb-6 animate-[fadeUp_0.7s_0.1s_ease_both]"
           style={{ fontSize:'clamp(2.6rem,6vw,5.2rem)' }}>
