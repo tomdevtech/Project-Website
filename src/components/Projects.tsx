@@ -36,10 +36,10 @@ const T = {
 /* ── Projects ──────────────────────────────────────────────── */
 const PROJECTS: ProjectDef[] = [
   {
-    id: "website",
-    icon: "🌐",
-    tags: [T.react, T.ts, T.tailwind, T.vite],
-    href: "https://github.com/tomdevtech/Project-Website",
+    id: "Docdrift",
+    icon: "ℹ️",
+    tags: [T.py, T.ai],
+    href: "https://github.com/tomdevtech/docdrift",
   },
   {
     id: "scrapeAgent",
@@ -48,10 +48,10 @@ const PROJECTS: ProjectDef[] = [
     href: "https://github.com/tomdevtech/Agentic-Scraper",
   },
   {
-    id: "githubUserDashboard",
-    icon: "📊",
-    tags: [T.react, T.ts, T.vite],
-    href: "https://github.com/tomdevtech/GitHub-User-Dashboard",
+    id: "website",
+    icon: "🌐",
+    tags: [T.react, T.ts, T.tailwind, T.vite],
+    href: "https://github.com/tomdevtech/Project-Website",
   },
   {
     id: "aiAgentForBC",
@@ -701,7 +701,7 @@ export function Projects() {
           className="btn-ghost self-start sm:self-auto"
           style={{ fontSize: "0.82rem", padding: "0.55rem 1.1rem" }}
         >
-          {language === "de" ? "Alle 29 Repos ↗" : "All 29 repos ↗"}
+          {language === "de" ? "Alle meine Repos ↗" : "All of my repos ↗"}
         </a>
       </div>
 
