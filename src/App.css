@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@reference "./index.css";
 
 .ContentFrameBox {
   @apply lg:px-16 lg:py-10 pt-2 font-sans select-none touch-auto pointer-events-auto will-change-auto overscroll-contain;
