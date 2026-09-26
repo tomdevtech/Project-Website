@@ -37,13 +37,13 @@ export function About() {
           </h2>
           <p className="text-white/45 leading-[1.85] mb-4 text-[0.92rem]" style={{ fontWeight:300 }}>
             {language === 'de'
-              ? 'Ich bin Tom, ein leidenschaftlicher Software Ingenieur, der Ideen in saubere, performante Software verwandelt.'
-              : "I'm Tom, a passionate software engineer who turns ideas into clean, performant software."}
+              ? 'Ich bin Tom, AI & Software Engineer, der Ideen in produktionsreife KI-Systeme verwandelt.'
+              : "I'm Tom, an AI & Software Engineer who turns ideas into production-ready AI systems."}
           </p>
           <p className="text-white/45 leading-[1.85] mb-8 text-[0.92rem]" style={{ fontWeight:300 }}>
             {language === 'de'
-              ? 'Ich lege großen Wert auf saubere Architektur, durchdachte UX und Open Source. Jedes Projekt ist eine Chance zu wachsen.'
-              : 'I care deeply about clean architecture, thoughtful UX, and open source. Every project is a chance to grow.'}
+              ? 'Seit 9 Jahren programmiere ich, die letzten 5 davon professionell als Business-Central-Entwickler. In den letzten 2 Jahren hat sich mein Fokus zunehmend Richtung LLMs, Agentic AI und moderne KI-Architekturen verschoben. Jedes Projekt ist für mich eine Chance, weiterzuwachsen.'
+              : "Programming's been part of my life for 9 years, the last 5 of them professionally as a Business Central developer. Over the past 2 years, my focus has increasingly shifted toward LLMs, Agentic AI, and modern AI architectures. Every project is a chance to grow."}
           </p>
           <div className="flex flex-wrap gap-2">
             {SKILLS.map(s => (
@@ -71,16 +71,17 @@ export function About() {
                   <span className="c-keyword">const</span> <span className="c-var">tom</span>{` = {`}{'\n'}
                   {'  '}<span className="c-var">name</span>{`:`} <span className="c-str">"Tom DevTech"</span>,{'\n'}
                   {'  '}<span className="c-var">location</span>{`:`} <span className="c-str">"Leipzig, DE"</span>,{'\n'}
-                  {'  '}<span className="c-var">stack</span>{`: [`}<span className="c-str">"React"</span>{`, `}<span className="c-str">"TS"</span>{`, `}<span className="c-str">"Python"</span>{`, `}<span className="c-str">"AL"</span>{`, `}<span className="c-str">"Docker"</span>{`]`}{'\n'}
-                  {'  '}<span className="c-var">projects</span>{`:`} <span className="c-num">29</span>,{'\n'}
+                  {'  '}<span className="c-var">role</span>{`:`} <span className="c-str">"AI Engineer & Software Engineer"</span>,{'\n'}
+                  {'  '}<span className="c-var">stack</span>{`: [`}<span className="c-str">"Python"</span>{`, `}<span className="c-str">"LangChain"</span>{`, `}<span className="c-str">"OpenAI"</span>{`, `}<span className="c-str">"TS"</span>{`, `}<span className="c-str">"React"</span>{`, `}<span className="c-str">"AL"</span>{`]`}{'\n'}
+                  {'  '}<span className="c-var">focus</span>{`:`} <span className="c-str">"AI Engineering & Architectures"</span>,{'\n'}
                   {'  '}<span className="c-var">coffee</span>{`:`} <span className="c-num">Infinity</span>,{'\n'}
                   {'  '}<span className="c-fn">build</span>{`: `}<span className="c-keyword">async</span>{` () => {`}{'\n'}
-                  {'    '}<span className="c-comment">// {language === 'de' ? 'Ideen in Code verwandeln' : 'turn ideas into code'}</span>{'\n'}
+                  {'    '}<span className="c-comment">// {language === 'de' ? 'Ideen in funktionierende KI verwandeln' : 'turn ideas into working AI'}</span>{'\n'}
                   {'    '}<span className="c-keyword">await</span>{` `}<span className="c-fn">ship</span>{`(greatStuff);`}{'\n'}
                   {'  }'}{'\n'}
                   {`};`}{'\n'}
                   {'\n'}
-                  <span className="c-comment">{'// '}{language === 'de' ? 'Offen für neue Möglichkeiten ✓' : 'Open to opportunities ✓'}</span>
+                  <span className="c-comment">{'// '}{language === 'de' ? 'Immer an neuen Ideen arbeitend ✓' : 'Always working on new ideas ✓'}</span>
                 </code>
               </pre>
             </div>
