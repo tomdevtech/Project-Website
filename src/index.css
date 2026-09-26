@@ -1,7 +1,53 @@
-@config "../tailwind.config.cjs";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cal Sans", "Playfair Display", Georgia, serif;
+  --font-body: "Inter var", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  --color-bg: #000f1a;
+  --color-bg-2: #001524;
+  --color-bg-3: #001d30;
+  --color-surface: #002540;
+  --color-surface-2: #003255;
+  --color-accent: #2fb5e8;
+  --color-accent-2: #65ccf0;
+  --color-teal: #2dd4bf;
+  --color-coral: #f87171;
+  --color-amber: #fbbf24;
+  --color-sage: #dceac6;
+
+  --breakpoint-xs: 480px;
+
+  --background-image-grid-pattern: linear-gradient(rgba(47,181,232,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(47,181,232,0.04) 1px,transparent 1px);
+
+  --animate-pulse-dot: pulse-dot 2.5s ease-in-out infinite;
+  --animate-ticker: ticker 30s linear infinite;
+  --animate-fade-up: fadeUp 0.7s ease both;
+  --animate-slide-left: slideLeft 0.4s cubic-bezier(0.4,0,0.2,1) both;
+  --animate-slide-right: slideRight 0.4s cubic-bezier(0.4,0,0.2,1) both;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.8); }
+}
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideLeft {
+  from { opacity: 0; transform: translateX(40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes slideRight {
+  from { opacity: 0; transform: translateX(-40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
 
 /* ── System font stack — no external requests ── */
 :root {
